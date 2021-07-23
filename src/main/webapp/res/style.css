@@ -1,0 +1,108 @@
+
+* {
+    box-sizing: border-box;
+}
+
+body, html {
+    max-width: 640px;
+    width: 80vw;
+}
+
+form {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 5em;
+    padding: 1em;
+    overflow: hidden;
+    text-align: center;
+}
+
+input[type=text], input[type=password], .wrap ,textarea{
+    margin-bottom: 1em;
+    border: 1px solid #CCC;
+    float: left;
+    padding-top: 0.7em;
+    padding-bottom: 0.7em;
+    width: calc(100% - 150px);
+}
+
+select {
+    padding-top: 0.7em;
+    padding-bottom: 0.7em;
+    text-align: center;
+    text-align-last: center;
+    float: left;
+    display: block;
+    width: calc(50% - 170px);
+}
+
+.telgap {
+    display: inline-block;
+    width: 20px;
+    float: left;
+    padding-top: 0.4em;
+    padding-bottom: 0.7em;
+    text-align: center;
+    font-size: 1.3rem;
+    line-height: 0.7em;
+    font-weight: bolder;
+}
+
+#tel2, #tel3 {
+    width: calc(50% - 165px);
+}
+#tel3 {float: right}
+
+#id {
+    width: calc(100% - 275px);
+}
+.hb {
+    float: left;
+    text-align: left;
+    width: 40px;
+    margin-left: 2rem;
+}
+.wrap {border: 0;
+}
+textarea{
+    display: block;
+    float: left;
+    height: 5rem;
+}
+
+input[type=checkbox],input[type=radio] {
+    float: left;
+    display: block;
+
+}
+input:focus {
+    outline: 2px solid salmon;
+    caret-color: salmon;
+}
+
+button {
+    float: right;
+    display: inline-block;
+    border: 0;
+    padding: 0.7em;
+    padding-right: 1em;
+    background-color: #999;
+    color: whitesmoke;
+}
+
+label {
+    text-align: right;
+    display: block;
+    float: left;
+    width: 150px;
+    padding: 0.7em 1.4em 0.7em 0;
+}
+#btn {
+    float: left;
+    margin: 1px;
+    width: 150px;
+}
+button:hover {
+    cursor: pointer;
+    background-color: #888;
+}
