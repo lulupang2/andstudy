@@ -66,9 +66,9 @@
     </tbody>
 </table>
 <%
-    run.close();
-    preparedStatement.close();
-    conn.close();
+    if (run != null) run.close();
+    if ( preparedStatement != null ) preparedStatement.close();
+    if (conn != null) conn.close();
 
 %>
 

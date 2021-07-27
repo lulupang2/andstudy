@@ -7,17 +7,19 @@
 </head>
 <body>
 <form method="post" action="db_process.jsp" name="join">
-    <!--아이디 비밀번호 이름 연락처 1(옵션) 2 3 취미(체크박스) 성별(라디오) 가입인사-->
     <h3>회원가입</h3>
+
     <label for="id">아이디 </label> <input name="id" id="id" type="text">
     <button>아이디 중복 확인</button>
+
     <label for="passwd">비밀번호 </label> <input name="passwd" id="passwd" type="password">
+
     <label for="name">이름 </label> <input name="name" id="name" type="text">
+
     <label for="tel">연락처 </label> <select name="tel1" id="tel">
     <option value="010">010</option>
     <option value="011">011</option>
-    <option value="012">012</option>
-</select>
+    <option value="012">012</option></select>
     <span class="telgap">-</span>
     <input type="text" maxlength="4" name="tel2" id="tel2">
     <span class="telgap">-</span>
